@@ -3,8 +3,8 @@
 > **Excel/VBA & Access: Upgraded with DuckDB**  
 > A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
 
+<img src="DuckDB_VBA.png" alt="Duck VBA DLL" width="450">
 
-![Duck VBA DLL](DuckDB_VBA.png)
 
 ## Why this project?
 
