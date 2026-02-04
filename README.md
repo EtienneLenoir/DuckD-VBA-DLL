@@ -4,7 +4,7 @@
 > A **serverless, in-process** analytical SQL engine controlled from VBA, with fast paths **Array/Range ⇄ DuckDB**.
 
 <p align="center">
-  <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="650">
+  <img src="DuckDB_VBA.png" alt="Duck VBA DLL" width="650">
 </p>
 
 ## Why this project?
