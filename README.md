@@ -13,6 +13,7 @@
 <details>
   
 <summary><b>Table of contents</b></summary>
+
 - [Why this project?](#why-this-project)
 - [Highlights](#highlights)
 - [Requirements](#requirements)
