@@ -11,6 +11,7 @@
 - 🧪 **Excel/VBA tutorial workbook (XLSM)**: [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1)
 
 <details>
+  
 <summary><b>Table of contents</b></summary>
 - [Why this project?](#why-this-project)
 - [Highlights](#highlights)
@@ -35,6 +36,7 @@
 - [License](#license)
 - [Disclaimer](#disclaimer)
 - [Support / contributions](#support--contributions)
+
 </details>
 
 ## Why this project?
