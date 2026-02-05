@@ -17,6 +17,32 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
 - ADO/ODBC friction at larger volumes,
 - MS Access is convenient but quickly caps out for modern data workflows.
 
+## Table of contents
+
+- [Why this project?](#why-this-project)
+- [Highlights](#highlights)
+- [Requirements](#requirements)
+- [Quick install (VBA)](#quick-install-vba)
+- [Connections: file, memory, read-only](#connections-file-memory-read-only)
+  - [In-memory DB (ultra fast)](#in-memory-db-ultra-fast)
+  - [File DB (persistent)](#file-db-persistent)
+  - [Read-only (safe reporting / audit)](#read-only-safe-reporting--audit)
+- [VBA API (toolbox level)](#vba-api-toolbox-level)
+- [Import / Export (CSV, JSON, Parquet)](#import--export-csv-json-parquet)
+  - [CSV](#csv)
+  - [JSON](#json)
+  - [Parquet](#parquet)
+- [Extensions (examples)](#extensions-examples)
+  - [miniplot (HTML charts)](#miniplot-html-charts)
+  - [rapidfuzz (fuzzy search)](#rapidfuzz-fuzzy-search)
+  - [nanodbc (Access via ODBC, from DuckDB)](#nanodbc-access-via-odbc-from-duckdb)
+  - [ui (DuckDB UI)](#ui-duckdb-ui)
+- [Repository layout (typical in this project)](#repository-layout-typical-in-this-project)
+- [Build / packaging (DLL)](#build--packaging-dll)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+- [Support / contributions](#support--contributions)
+
 **DUCK VBA DLL** brings a modern OLAP engine (DuckDB) to VBA: JOIN/GROUP BY/CTE/WINDOW, columnar scans, vectorized execution, multi-threading, Parquet/JSON/CSV read & write… while keeping Excel as the front-end.
 
 
