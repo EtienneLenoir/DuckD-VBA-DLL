@@ -13,6 +13,7 @@
 ✅ Ultra-fast **Range/Array ⇄ DuckDB** ingestion + upserts + dictionary lookups  
 ✅ Easier integration with external databases (**SQL Server / PostgreSQL**) for hybrid workflows (import, join, report)  
 
+--
 📖 **Documentation (PDF)**: [DuckVBA_documentation_EN.pdf](DuckVBA_documentation_EN.pdf?raw=1)  
 🧪 **Excel/VBA tutorial workbook (XLSM)**: [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1)  
 ➡️ **Download**: see **Releases** for a ready-to-run ZIP (DLLs + VBA modules + demo XLSM).  
