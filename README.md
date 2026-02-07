@@ -51,7 +51,7 @@
 </details>
 
 <p align="center">
-  <img src="docs/images/DuckDB_VBA_Schema.png" alt="DuckDB VBA Schema" width="450">
+  <img src="docs/images/DuckDB_VBA_Schema.png" alt="DuckDB VBA Schema" width="490">
 </p>
 
 
