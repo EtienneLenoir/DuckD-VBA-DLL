@@ -50,6 +50,11 @@
 
 </details>
 
+<p align="center">
+  <img src="docs/images/DuckDB_VBA_Schema.png" alt="DuckDB VBA Schema" width="450">
+</p>
+
+
 ## Why this project?
 
 Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting), but it becomes slow and brittle as soon as you hit serious data workloads:
