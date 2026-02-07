@@ -19,6 +19,9 @@
 - 🧪 **Excel/VBA tutorial workbook (XLSM)**: [DuckDB_VBA_Tutorial_fr.xlsm](tutorial/DuckDB_VBA_Tutorial_fr.xlsm?raw=1)
 - ➡️ **Download**: see **Releases** for a ready-to-run ZIP (DLLs + VBA modules + demo XLSM).
 
+➡️ **Download**: see [**Releases**](../../releases) for a ready-to-run ZIP (DLLs + VBA modules + demo XLSM).
+
+
 <details>
   
 <summary><b>Table of contents</b></summary>
