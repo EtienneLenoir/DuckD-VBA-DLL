@@ -4,7 +4,7 @@
   <img src="docs/images/DuckDB_VBA.png" alt="Duck VBA DLL" width="490">
 </p>
 
-> **Excel/VBA & Access: Upgraded with DuckDB**  
+> **DuckDB in Excel/VBA — Boost VBA with an embedded OLAP engine (C/C++ DLL bridge)**  
 
 ✅ Replace slow VBA loops / ADO bottlenecks  
 ✅ Use DuckDB as a modern **MS Access alternative** (single portable `.duckdb` file)  
