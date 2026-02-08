@@ -114,9 +114,9 @@ Sub Quickstart_DuckVba()
     db.ErrorMode = 2  '2=LogOnly (debug via duckdb_errors.log), 1=MsgBox, 0=Raise
 
     ' 2) Choisis ton mode :
-    db.OpenDuckDb ":memory:"                            'RAM (ultra rapide)
-    'db.OpenDuckDb ThisWorkbook.Path & "\cache.duckdb"   'fichier persistant
-    'db.OpenReadOnly ThisWorkbook.Path & "\cache.duckdb" 'lecture seule
+    db.OpenDuckDb ":memory:"                             '100% RAM, no disk I/O, ideal for ETL & analytics
+    'db.OpenDuckDb ThisWorkbook.Path & "\cache.duckdb"   'persistent file (read/write, Access-like)
+    'db.OpenReadOnly ThisWorkbook.Path & "\cache.duckdb" 'read-only file (safe reporting / audit)
 
     ' 3) SQL analytics (DDL/DML)
     db.Exec "CREATE TABLE t(id INT, name TEXT);"
