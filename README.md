@@ -76,6 +76,8 @@ Excel/VBA is still unbeatable for the “last mile” (UI, validation, reporting
   - `SELECT` → `Variant(2D)` (paste directly to worksheet),
   - `SELECT` → `Dictionary` (ultra-fast in-memory lookups in VBA),
   - `COPY TO` Parquet/JSON/CSV.
+- **Access → DuckDB made easy**: import tables fast with `AppendAdoRecordsetFast` (quick migration from legacy `.mdb/.accdb`)
+- **Build your own “pandas-like” toolkit**: `FrameFromValue` turns any `Variant(2D)` into an in-memory table you can slice/filter/join/aggregate in SQL
 - **Toolkit-ready features**:
   - upsert (sync Excel → DuckDB),
   - temp lists (replace huge `WHERE IN (...)`),
