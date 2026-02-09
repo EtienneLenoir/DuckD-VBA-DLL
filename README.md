@@ -116,7 +116,7 @@ Sub Quickstart_DuckVba()
     db.Init ThisWorkbook.Path
     db.ErrorMode = 2  '2=LogOnly (debug via duckdb_errors.log), 1=MsgBox, 0=Raise
 
-    '2) Choisis ton mode :
+    '2) Choose your mode:
     db.OpenDuckDb ":memory:"                             '100% RAM, no disk I/O, ideal for ETL & analytics
     'db.OpenDuckDb ThisWorkbook.Path & "\cache.duckdb"   'persistent file (read/write, Access-like)
     'db.OpenReadOnly ThisWorkbook.Path & "\cache.duckdb" 'read-only file (safe reporting / audit)
@@ -128,7 +128,7 @@ Sub Quickstart_DuckVba()
     '4) SELECT -> Variant(2D) (ligne 1 = headers)
     v = db.QueryFast("SELECT * FROM t ORDER BY id;")
 
-    '5) Paste dans Excel
+    '5) Display
     If Not IsEmpty(v) Then
         ActiveSheet.Range("A1").Resize(UBound(v, 1), UBound(v, 2)).Value2 = v
     End If
